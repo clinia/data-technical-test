@@ -11,6 +11,9 @@ authors = [
     "Jonathan Chansin <jonathan.chansin@clinia.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+main = "data_technical_test.main:main"
+
 [tool.poetry.dependencies]
 python = "~3.8.6"
 pyspark = "~3.2.0"
